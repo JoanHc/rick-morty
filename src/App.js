@@ -16,13 +16,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="title">Rick & Morty </h1>
+        c<h1 className="title">Rick & Morty </h1>
         {characters ? (
           <Characters characters ={characters} setCharacters={setCharacters}/>
         ) : (
           <>
             <img src= {imgen} alt="Rick & Morty" className="img-home"></img>
-            <button onClick={reqApi} className= "btn-search">Buscar</button>
+            <button onClick={reqApi} className= "btn-search">Buscar personajes</button>
           </>
         )}
       </header>
