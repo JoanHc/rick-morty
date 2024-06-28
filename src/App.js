@@ -21,7 +21,7 @@ function App() {
           <Characters characters ={characters} setCharacters={setCharacters}/>
         ) : (
           <>
-            <img src= {imgen} alt="Rick & Morty" className="img-home"></img>
+            <img src= {imgen} alt="Rick & Morty" className="img-home"/>
             <button onClick={reqApi} className= "btn-search">Buscar personajes</button>
           </>
         )}
